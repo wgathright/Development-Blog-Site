@@ -1,0 +1,59 @@
+#container
+{
+	width: 960px;
+	margin: 0px auto;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header
+{
+	background: #333;
+	color: white;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 8px;
+}
+
+h4
+{
+	color: aqua;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+nav ul
+{
+	
+	overflow: hidden;
+	color: white;
+	padding: 0;
+	text-align: center;
+	margin: 2px 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	padding: 20px;
+	background-color: rgb(225,0,132);
+	border-radius: 20px;
+	margin: 0 15px;
+	border: 1px solid gray;
+}
+
+#about
+{
+	background-color: aqua;
+	color: #333;
+	border-radius: 3px;
+}
