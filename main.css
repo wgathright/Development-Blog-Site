@@ -35,7 +35,7 @@ nav ul
 {
 	
 	overflow: hidden;
-	color: white;
+	color: gray;
 	padding: 0;
 	text-align: center;
 	margin: 2px 0;
@@ -45,15 +45,23 @@ nav ul li
 {
 	display: inline-block;
 	padding: 20px;
-	background-color: rgb(225,0,132);
-	border-radius: 20px;
-	margin: 0 15px;
+	background-color: aqua;
+	border-radius: 3px;
+	margin: 2px 18px 10px;
 	border: 1px solid gray;
+	color: black;
+}
+
+nav ul li:hover
+{
+	
+	box-shadow: 1px 1px 2px 2px gray;
+
 }
 
 #about
 {
-	background-color: aqua;
-	color: #333;
-	border-radius: 3px;
+	background-color: rgb(225,0,132);
+	border-radius: 30px;
+	color: white;
 }
